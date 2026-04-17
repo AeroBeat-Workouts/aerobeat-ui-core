@@ -2,5 +2,5 @@ config_version=5
 
 [application]
 
-config/name="AeroBeat Asset Testbed"
+config/name="AeroBeat UI Core Testbed"
 config/features=PackedStringArray("4.2", "Forward Plus")
