@@ -35,6 +35,6 @@ The hidden workbench remains the canonical development/debug surface, and repo-l
 ### Validation notes
 
 - `.testbed/addons.jsonc` is the only committed dev/test dependency contract.
-- `.testbed/scripts` and `.testbed/test` are tracked relative links into the repo root.
+- `.testbed/scripts` and `.testbed/tests` are tracked relative links into the repo root. Add `.testbed/scenes` only when the repo needs manual/workbench scene content.
 - The public Phase 1 UI contract surface lives under `scripts/base/`.
 - The manifest pins `aerobeat-core` to `v0.1.0` and restores it from the repo root (`subfolder: "/"`). That repo-root shape is an explicit current-state assumption for the foundational chain, not an implicit wrapper-era artifact.
