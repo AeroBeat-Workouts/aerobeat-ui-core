@@ -3,4 +3,4 @@ config_version=5
 [application]
 
 config/name="AeroBeat UI Core Testbed"
-config/features=PackedStringArray("4.2", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")

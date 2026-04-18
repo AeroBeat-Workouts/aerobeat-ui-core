@@ -30,7 +30,7 @@ From the repo root:
 godot --editor --path .testbed
 ```
 
-The testbed uses tracked relative links so the hidden workbench can see the repo's real `scripts/` and `test/` content without a legacy setup script.
+The hidden workbench remains the canonical development/debug surface, and repo-local unit tests now live under `.testbed/tests/`.
 
 ### Validation notes
 
