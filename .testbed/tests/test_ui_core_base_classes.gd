@@ -16,8 +16,8 @@ func test_aero_button_base_is_a_button() -> void:
 	assert_true(button is Button, "AeroButtonBase should provide a reusable Button-based UI contract")
 	button.free()
 
-func test_tagged_core_dependency_is_restored_into_testbed_addons() -> void:
+func test_tagged_input_core_dependency_is_restored_into_testbed_addons() -> void:
 	assert_true(
-		FileAccess.file_exists("res://addons/aerobeat-core/plugin.cfg"),
-		"The tagged aerobeat-core dependency should restore into the GodotEnv-managed testbed addons folder"
+		FileAccess.file_exists("res://addons/aerobeat-input-core/plugin.cfg"),
+		"The tagged aerobeat-input-core dependency should restore into the GodotEnv-managed testbed addons folder"
 	)

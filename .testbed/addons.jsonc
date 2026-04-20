@@ -1,9 +1,9 @@
 {
   "$schema": "https://chickensoft.games/schemas/addons.schema.json",
   "addons": {
-    // Phase 1 pins the foundational core contract explicitly for UI-core work.
-    "aerobeat-core": {
-      "url": "git@github.com:AeroBeat-Workouts/aerobeat-core.git",
+    // Phase 1 pins the foundational input-core contract explicitly for UI-core work.
+    "aerobeat-input-core": {
+      "url": "git@github.com:AeroBeat-Workouts/aerobeat-input-core.git",
       "checkout": "v0.1.0",
       "subfolder": "/"
     },
